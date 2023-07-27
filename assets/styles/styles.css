@@ -13,6 +13,11 @@ h2, h3{
     color: #000000;
 }
 
+h4 {
+    color: black;
+    text-align: center;
+}
+
 footer{
     padding: 20px;
     color: white;
@@ -73,6 +78,9 @@ nav li {
 nav {
     background-color:#e6dcea ;
     padding: 5px;
+
+    position: sticky;
+    top: 0;
 }
 
 main {
@@ -92,9 +100,17 @@ aside {
     padding-left: 20px;
 }
 
+header {
+    display: inline;
+}
+
 @media screen and (max-width: 1000px) {
     #content, aside {
         width: 100%;
         padding: 0;
     }
+}
+
+.table1 {
+    text-align: center;
 }
